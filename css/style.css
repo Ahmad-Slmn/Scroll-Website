@@ -76,15 +76,12 @@ header nav ul {
     align-items: center
 }
 
-header nav ul li {
-    margin-right: 25px;
-    font-weight: bold
-}
 
 header nav ul li a {
     padding: 5px 10px;
     transition: var(--trans);
-    border-radius: 20px
+    border-radius: 20px;
+    font-weight: bold
 }
 
 header nav ul li a:hover {
@@ -151,14 +148,14 @@ header nav ul li a:hover {
     line-height: 1.7
 }
 
-@media(max-width:767px){
-    
+@media(max-width:767px) {
+
     header nav {
         position: fixed;
         top: 0;
         z-index: 2;
         display: inline-flex;
-       min-width: 100%;
+        min-width: 100%;
         padding: 70px 0% 0;
         max-height: 70px;
         overflow: hidden;
@@ -175,7 +172,8 @@ header nav ul li a:hover {
     }
 
     header nav ul li {
-        padding: 10px 0
+        padding: 10px 0;
+        margin-right: 8px
     }
 
     header nav ul li a {
@@ -203,7 +201,8 @@ header nav ul li a:hover {
     .bars {
         display: block !important
     }
-    header{
+
+    header {
         padding: 0
     }
 }

@@ -45,7 +45,7 @@ window.onscroll = function () {
 
     if (scrollY >= 96) {
 
-        ahmed.style.fontSize = 96 + "px";
+        ahmed.style.fontSize = 40 + "px";
 
         ahmed.style.position = "fixed";
 
