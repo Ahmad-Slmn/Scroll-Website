@@ -41,7 +41,7 @@ window.onscroll = function () {
 
     boat.style.left = value * 3 + "px";
 
-    ahmed.style.fontSize = value - 20 + "px";
+    ahmed.style.fontSize = value - 50 + "px";
 
     if (scrollY >= 96) {
 
